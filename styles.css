@@ -1,0 +1,61 @@
+
+    
+      a {
+            color: black;
+            font-size: 50px;
+            
+        }
+        
+        a:hover, a:active {
+        color: darkgray;
+        }
+        
+      .head {
+            height: 200px;
+            font-size: 130px;
+            text-align: center;
+            }
+            
+            
+      .space {
+            height: 70px;
+             }
+             
+        
+  
+      .minorhead{
+                font-size: 50px;
+                background-color: lightgray;
+                  border-style: ridge;
+                  border-width: 7px;
+                  border-color: darkgray;
+                  text-align: center;
+                }
+  
+      .box_gray {
+              font-size: 50px;
+              background-color: lightgray;
+              border-style: ridge;
+              border-width: 7px;
+              border-color: darkgray;
+              text-align: center;
+                 }
+
+   
+      .box {
+             height: 50px;
+            }
+  
+  
+  
+      @media (max-width: 600px) {
+        .head {
+          font-size: 90px;
+          height: 110px;
+          width: 100%;
+            }
+      }
+            
+            
+        
+        
