@@ -1,71 +1,85 @@
-<!DOCTYPE html>
 
-
-<html>
-    <title>
-        Fiona's Corner
-    </title>
-    <head>
-        <link rel="stylesheet" type="text/css" href="styles.css" />
-
-    </head> 
     
-    <style>
-   
-    
-       body{
-         background-image: url("CP.png");
-      }
-
-      
-    </style>
-      
-
-
-
-    <body>
-    
-        <div class ="space";>
-        </div>
+      a {
+            color: black;
+            font-size: 50px;
+            
+        }
         
-        <div class ="head";>
-        Fiona Teich
-        </div>
+        a:hover, a:active {
+        color: darkgray;
+        }
         
-        <div class ="space";>
-        </div>
-        
+      .head {
+            height: 150px;
+            font-size: 130px;
+            text-align: center;
+            width: 700px;
+            margin: auto;
+            background-color: lightgray;
+            border-style: ridge;
+            border-width: 7px;
+            border-color: darkgray;
 
-        
+            }
+            
+        .footer {
+            height: 15px;
+            font-size: 13px;
+            text-align: center;
+            width: 100px;
+            margin: auto;
+            background-color: lightgray;
+            border-style: ridge;
+            border-width: 3px;
+            border-color: darkgray;
 
-         <div class =minorhead><a href = "resume"> Resume and CV</a></div>
-         <div class =minorhead><a href="Portfolio.html" >Portfolio</a></div>
-  
- 
-         <div class="minorhead">
-              <a href="entry.html" >Entry Page</a>
-              </div>
-              
-
-        <div class="space">
+            }
+            
+            
+      .space {
+            height: 70px;
+             }
              
-              </div>
+        
+  
+      .minorhead{
+                font-size: 50px;
+                background-color: lightgray;
+                  border-style: ridge;
+                  border-width: 7px;
+                  border-color: darkgray;
+                  text-align: center;
+                width: 600px;
+                margin: auto;
+                  
+                }
+  
+      .box_gray {
+              font-size: 50px;
+              background-color: lightgray;
+              border-style: ridge;
+              border-width: 7px;
+              border-color: darkgray;
+              text-align: center;
               
-        <div class="minorhead">
-              <a href="aboutme.html" >About Me</a>
-              </div>
-              
-      
-     
-      
-          <h6 style = "text-align: center; color: white;" ></h6>
-          
-              <div class="footer">Version 1 2025
-          </div>
+                 }
 
-
-    </body>
-
-
-
-</html>
+   
+      .box {
+             height: 50px;
+            }
+  
+  
+  
+      @media (max-width: 600px) {
+        .head {
+          font-size: 90px;
+          height: 110px;
+          width: 100%;
+            }
+      }
+            
+            
+        
+        
