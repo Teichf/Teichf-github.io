@@ -1,61 +1,71 @@
+<!DOCTYPE html>
 
+
+<html>
+    <title>
+        Fiona's Corner
+    </title>
+    <head>
+        <link rel="stylesheet" type="text/css" href="styles.css" />
+
+    </head> 
     
-      a {
-            color: black;
-            font-size: 50px;
-            
-        }
-        
-        a:hover, a:active {
-        color: darkgray;
-        }
-        
-      .head {
-            height: 200px;
-            font-size: 130px;
-            text-align: center;
-            }
-            
-            
-      .space {
-            height: 70px;
-             }
-             
-        
-  
-      .minorhead{
-                font-size: 50px;
-                background-color: lightgray;
-                  border-style: ridge;
-                  border-width: 7px;
-                  border-color: darkgray;
-                  text-align: center;
-                }
-  
-      .box_gray {
-              font-size: 50px;
-              background-color: lightgray;
-              border-style: ridge;
-              border-width: 7px;
-              border-color: darkgray;
-              text-align: center;
-                 }
-
+    <style>
    
-      .box {
-             height: 50px;
-            }
-  
-  
-  
-      @media (max-width: 600px) {
-        .head {
-          font-size: 90px;
-          height: 110px;
-          width: 100%;
-            }
+    
+       body{
+         background-image: url("CP.png");
       }
-            
-            
+
+      
+    </style>
+      
+
+
+
+    <body>
+    
+        <div class ="space";>
+        </div>
         
+        <div class ="head";>
+        Fiona Teich
+        </div>
         
+        <div class ="space";>
+        </div>
+        
+
+        
+
+         <div class =minorhead><a href = "resume"> Resume and CV</a></div>
+         <div class =minorhead><a href="Portfolio.html" >Portfolio</a></div>
+  
+ 
+         <div class="minorhead">
+              <a href="entry.html" >Entry Page</a>
+              </div>
+              
+
+        <div class="space">
+             
+              </div>
+              
+        <div class="minorhead">
+              <a href="aboutme.html" >About Me</a>
+              </div>
+              
+      
+     
+      
+          <h6 style = "text-align: center; color: white;" ></h6>
+          
+              <div class="footer">Version 1 2025
+          </div>
+
+
+    </body>
+
+
+
+</html>
