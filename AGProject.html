@@ -1,0 +1,116 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>AND Gate</title>
+
+
+
+<style>
+
+  .fit {
+  max-width: 20%;
+  max-height: 20%;
+}
+
+</style>
+
+
+
+
+  </head>
+  <body>
+    <h1>AND Gate!</h1>
+        
+    
+    <iframe width="360" height="215" src="https://www.youtube.com/embed/mLzUiUPz1Zk?si=DDlKebOntmhl5abA" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+    
+    
+    
+     <p>This project is an AND Gate made to fit into an altoids tin, This project is meant to continue my "Odd Harmonics" journay of creating DIY kits that teach electrical enginering concepts in a fun and engaging way. In this project I wanted to play around with PCB layers, LEDs and multi boards.  This was inspired by my internship at Synth Cube in Waltham, where I soldered tested and calibrated DIY synthizier and guitar pedals.  At this internship I also got expeirence looking at how people are able to use PCBs in creative ways.  This is also my first project making a footprint.</p>
+  
+    
+    <h2> Specs </h2>
+    <b> Cost = ~$15 per unit </b>
+    <br>
+    <b> Time Spent Designing (R&D): ~20 hours </b>
+    
+    <br>
+    <br>
+    <br>
+    <br>
+    
+    <img class="fit" src='testAG500x339.png'>    
+    <img class="fit" src='AG2.png'>
+    <img class="fit" src='AG3.png'>
+     
+    <p> I took this schematic of off google <a target=”_blank” href="https://circuitdigest.com/electronic-circuits/designing-and-gate-using-transistors
+">(Click Here)</a> and then modified it and bread-boarded it to be able to integrate LEDS. I didnt think too much about the circuit itsself as this was more of an exercise in PCB layers and presentation </p>
+    
+    <img class="fit" src='AGS1.png'>
+    
+    
+    <p> The goal was to have leds to indicate high and low input bits for the two inputs and one output, high = LED on, Low = LED off.  I also added an led for a power indicater.  
+    
+    <br>
+    <br>
+    
+    <img class="fit" src='AGS22.png'>
+    
+ 
+    
+    <p> I did this buy first adding a DPDT (double pole double throw) switch on both A and B where when swtiched "high", two tracks are on, the transitor and resister track and an added LED "high" track.  Then when switched "low" then theres two tracks but only one is important and wired, the LED indecating a low bit. </p>
+        
+        
+    
+    <img class="fit" src='AGT1.png'>
+    <img class="fit" src='testAG500x339.png'>
+
+
+    <p>Here is the breadboard/schematic layout for the top layer PCB in KICAD, For the top board I drew the AND gate and words within KICAD and also designed the 1s and 0s. I was able to achieve the LED light shining through by creating a circle on the back mask and creating the shape (1, 0 or star) in the front mask layer. I then added a circle of front copper layer to keep the light from shinning through the board.  There is still a halo that can be seen in some lighting so something I would do next time would be to do a full copper plane on the front. </p> 
+  
+    
+    
+<img class="fit" src='AGF.png'>
+<img class="fit" src='AGB1.png'>
+
+
+    <p> While laying out the PCB I find my footprints through the M5 portal, where I locate my parts.  The small switch  <a target=”_blank” href="https://m5-portal.app/item/12FCDB42">(Click Here)</a>  does not have any footprint associated with it so I measured the component and created a footprint which worked very well.  I also added a ring noting the diameter of the shaft on all the switch footprints to help with lining up the two pcbs </p>
+
+
+    
+    
+<img class="fit" src='AGB2.png'>
+<img class="fit" src='AGB3.png'>
+<img class="fit" src='AGT2.png'>
+<img class="fit" src='AGT3.png'>
+
+    <p> Here are the top and bottom board in board view </p>
+    
+<br>
+<br>
+
+<p> Next steps for new PCB </p>
+<li> See if having an open circuit on the "off" track is an issue or not </li>
+<li> On the bottom PCB add another resister to be able to have different color LED lights for high and low like in breadbard version</li>
+<li> Create a copper plane for top PCB to get rid of residual LED halo</li>
+<!-- <li> footprint within kicad specs</li> -->
+
+<br>
+<br>
+<br>
+   
+
+
+<a href="Portfolio.html">Go Back</a>
+<br>
+<a href="index.html">Go Home</a>
+
+<br>
+<br>
+
+
+
+  </body>
+</html>
